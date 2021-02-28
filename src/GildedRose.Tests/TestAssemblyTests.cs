@@ -1,13 +1,14 @@
-using Xunit;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GildedRose.Tests
 {
+    [TestClass]
     public class TestAssemblyTests
     {
-        [Fact]
+        [TestMethod]
         public void TestTheTruth()
         {
-            Assert.True(true);
+            Assert.IsTrue(true);
         }
     }
 }

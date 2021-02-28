@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackstagePassesItemUpdaterDecorator.cs" />
+    <Compile Include="ItemUpdaterFactory.cs" />
+    <Compile Include="SulfurasItemUpdaterDecorator.cs" />
+    <Compile Include="AgedBrieItemUpdaterDecorator.cs" />
+    <Compile Include="IItemUpdater.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="ItemUpdater.cs" />
     <Compile Include="ItemNames.cs" />

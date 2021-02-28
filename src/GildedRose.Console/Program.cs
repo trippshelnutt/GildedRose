@@ -30,7 +30,7 @@ namespace GildedRose.Console
 
         private void UpdateQuality()
         {
-            var itemUpdater = new ItemUpdater();
+            var itemUpdater = ItemUpdaterFactory.CreateItemUpdater();
             foreach (var item in Items)
             {
                 itemUpdater.UpdateItem(item);
